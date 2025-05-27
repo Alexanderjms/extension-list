@@ -39,4 +39,4 @@ Esta es una aplicación web construida con Next.js y Tailwind CSS que muestra un
 
 ---
 
-**Desarrollado por AlexJSM**
+**Desarrollado por Alexander Suazo**
