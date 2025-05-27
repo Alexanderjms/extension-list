@@ -1,8 +1,5 @@
 "use client";
 
-import React, { useState } from "react";
-import ExtensionCard from "@/components/extension";
-
 export const cardsData = [
   {
     id: "1",
