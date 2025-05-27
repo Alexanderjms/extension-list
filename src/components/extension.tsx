@@ -26,11 +26,13 @@ const ExtensionCard: React.FC<CardProps> = ({
   };
 
   return (
-    <div className="bg-gray-800 rounded-lg borderExt p-4 flex flex-col Card transition-colors duration-300 font-noto w-full max-w-xs sm:max-w-none">
+    <div className="bg-gray-800 rounded-lg borderExt p-4 flex flex-col Card transition-colors duration-300 font-noto w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-[22rem] xl:max-w-[23.7rem] min-w-[16rem] mx-2 my-2">
       <div className="flex items-start">
         <img src={imageUrl} alt={title} className="w-12 h-12 flex-shrink-0" />
         <div className="ml-4 flex flex-col justify-center">
-          <h3 className="text-lg font-semibold text-white font-noto">{title}</h3>
+          <h3 className="text-lg font-semibold text-white font-noto">
+            {title}
+          </h3>
           <p className="text-gray-400 text-sm mt-1 font-noto">{description}</p>
         </div>
       </div>
